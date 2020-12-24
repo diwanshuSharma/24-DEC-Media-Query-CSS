@@ -1,0 +1,11 @@
+body {
+    background: white;
+}
+
+#wrapper {
+    padding: 90px 15px;
+}
+
+.card {
+    margin-bottom: 3px;
+}
