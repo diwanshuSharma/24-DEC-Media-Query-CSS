@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Profiler</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- stylesheet css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/profile-blue.css">
+    <link rel="stylesheet" href="css/contactUsstyles.css">
+
+    <script src="js/ContactUsScript.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">My Portfolio</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="fa fa-sign-in" href="#">Sign Up</a></li>
+                <li><a class="fa fa-user" href="../Login Page/Login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row ContactMainArea">
+            <div class="col-md-4">
+                <div class="contactUs-banner">
+                    <a href="#" class="fa fa-envelope"></a>
+                    <h3>Contact US</h3>
+                    <h4>We would to hear from you !</h4>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="details">
+                    <form onsubmit="Validate()">
+
+                        <div class="form-group row">
+                            <label for="FirstName" class="col-sm-3 col-form-label">First Name:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="FirstName" placeholder="First Name" onblur="validateFirstName()">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="LastName" class="col-sm-3 col-form-label">Last Name:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="LastName" placeholder="Last Name" onblur="validateLastName()">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="Email" class="col-sm-3 col-form-label">Email:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="Email" placeholder="Email" onblur="validEmail()">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="Phone" class="col-sm-3 col-form-label">Phone:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="Phone" placeholder="Phone Number" onblur="validPhoneNo()">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="Comment" class="col-sm-3 col-form-label">Comment:</label>
+                            <div class="col-sm-9">
+                                <textarea id="Comment" cols="58" rows="8"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn">Submit</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- javascript js -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

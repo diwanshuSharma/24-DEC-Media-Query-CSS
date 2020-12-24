@@ -1,0 +1,61 @@
+body {
+    align-content: center;
+    background-image: url(../images/tengyart-SUU2qvBCnYA-unsplash.jpg);
+}
+
+.container {
+    background-color: white;
+}
+
+.ContactMainArea {
+    margin: 45px;
+}
+
+.contactUs-banner {
+    background-color: #f39417;
+    min-height: 450px;
+}
+
+.contactUs-banner a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 60px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    top: 10px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.contactUs-banner h3 {
+    margin-top: 60px;
+    align-content: center;
+    margin-left: 40px;
+}
+
+.contactUs-banner h4 {
+    align-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.details {
+    margin-top: 60px;
+}
+
+textarea {
+    resize: none;
+}
+
+.details button {
+    width: 150px;
+    margin-left: 50%;
+    background-color: grey;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: bolder;
+}
